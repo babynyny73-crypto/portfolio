@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>🎲 Guess The Number</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <h1>🎲 Guess The Number</h1>
+
+        <div id="startScreen">
+            <input type="text" id="nameInput" placeholder="Enter your name" />
+            <button id="startBtn">Start Game</button>
+        </div>
+
+        <div id="gameScreen" style="display: none;">
+            <p id="welcomeMsg"></p>
+            <input type="number" id="guessInput" placeholder="Enter your guess (1–10)" />
+            <button id="submitBtn">Submit</button>
+            <button id="restartBtn">Restart</button>
+            <div class="output" id="output"></div>
+        </div>
+
+        <h2>🏆 Leaderboard</h2>
+        <ul id="leaderboard"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

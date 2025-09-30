@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Worcester Quiz — 10 Questions</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Worcester quiz — 10 multiple choice questions</h1>
+      <p id="progress">Press Start to begin</p>
+      <div id="timer">Time left: 60s</div>
+    </header>
+
+    <div class="card" id="quiz-card">
+      <button id="start-btn" class="btn-start">Start Quiz</button>
+
+      <form id="quiz-form" autocomplete="off" novalidate style="display:none;">
+        <div id="questions"></div>
+
+        <div class="actions">
+          <button type="button" id="prev-btn" class="btn-nav">Previous</button>
+          <button type="button" id="next-btn" class="btn-nav">Next</button>
+          <button type="submit" id="submit-btn" class="btn-submit" style="display:none;">Submit Answers</button>
+          <button type="button" id="reset-btn" class="btn-reset">Reset</button>
+        </div>
+
+        <div id="result-area" style="display:none">
+          <div class="result" id="result-box">
+            <div>
+              <div class="score" id="score-text">Score: 0 / 10</div>
+              <div class="explain" id="percent-text">0%</div>
+            </div>
+            <div id="summary-note" style="font-size:14px; color:var(--muted)"></div>
+          </div>
+        </div>
+      </form>
+
+      <div id="leaderboard" style="display:none;">
+        <h2>🏆 Leaderboard</h2>
+        <ul id="leaderboard-list"></ul>
+      </div>
+
+      <footer>
+        Questions are general facts about Worcester. Want more features? Just ask!
+      </footer>
+      
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

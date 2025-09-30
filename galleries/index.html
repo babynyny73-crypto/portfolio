@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Image Carousel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="carousel">
+        <button class="arrow left" onclick="prevSlide()">&#10094;</button>
+        <div class="carousel-images">
+            <img src="./gallery1/image1.jpg" class="slide active">
+            <img src="./gallery1/image2.png" class="slide">
+            <img src="./gallery1/image3.png" class="slide">
+            <img src="./gallery1/image4.png" class="slide">
+            <img src="./gallery1/image5.jpg" class="slide">
+            <img src="./gallery1/image6.png" class="slide">
+        </div>
+
+        <button class="arrow right" onclick="nextSlide()">&#10095;</button>
+    </div>
+<div class="gallery">
+    <!-- 9 images with varying classes for size -->
+    <div class="gallery">
+        <img src="./grid gallery/img1.jpg" alt="Image 1" class="gallery-item" />
+        <img src="./grid gallery/img2.jpg" alt="Image 2" class="gallery-item" />
+        <img src="./grid gallery/img3.jpg" alt="Image 3" class="gallery-item" />
+        <img src="./grid gallery/img4.jpg" alt="Image 4" class="gallery-item" />
+        <img src="./grid gallery/img5.jpg" alt="Image 5" class="gallery-item" />
+        <img src="./grid gallery/img6.jpg" alt="Image 6" class="gallery-item" />
+        <img src="./grid gallery/img7.jpg" alt="Image 7" class="gallery-item" />
+        <img src="./grid gallery/img8.jpg" alt="Image 8" class="gallery-item" />
+        <img src="./grid gallery/img9.jpg" alt="Image 9" class="gallery-item" />
+    </div>
+    
+    <div id="lightbox" class="lightbox">
+        <span class="close">&times;</span>
+        <img class="lightbox-img" src="" alt="Expanded view" />
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

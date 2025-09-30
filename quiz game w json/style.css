@@ -1,0 +1,130 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #f0f4f8, #e0e7ff);
+  margin: 0;
+  padding: 20px;
+  font-size: 16px;
+}
+
+.container {
+  max-width: 700px;
+  margin: auto;
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+  text-align: center;
+  color: #4f46e5;
+}
+
+#progress, #timer {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#timer {
+  color: #ef4444;
+}
+
+.question {
+  border: 2px solid #e0e7ff;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  background: #f9fafb;
+}
+
+.choices {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.choice {
+  background: #e0e7ff;
+  padding: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  text-align: center;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  display: block;
+}
+
+.choice:hover {
+  background: #c7d2fe;
+  transform: scale(1.02);
+}
+
+input[type="radio"] {
+  margin-right: 8px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background: #6366f1;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background: #4f46e5;
+  transform: scale(1.02);
+}
+
+.btn-start {
+  display: block;
+  margin: 20px auto;
+  font-size: 18px;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.result {
+  margin-top: 20px;
+  text-align: center;
+}
+
+#leaderboard {
+  margin-top: 30px;
+  background: #f3f4f6;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#leaderboard-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+#leaderboard-list li {
+  background: #e5e7eb;
+  margin: 5px 0;
+  padding: 8px;
+  border-radius: 6px;
+  font-weight: 500;
+}
+
+@media (max-width: 600px) {
+  .choices {
+    grid-template-columns: 1fr;
+  }
+
+  button {
+    width: 100%;
+  }
+}

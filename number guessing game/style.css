@@ -1,0 +1,72 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f0f4f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#guessInput {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+#guessInput:focus {
+    border-color: #0078D4;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 120, 212, 0.5);
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+}
+
+#submitBtn {
+    background-color: #2196F3;
+}
+
+#submitBtn:hover {
+    background-color: #0b7dda;
+}
+
+#restartBtn {
+    background-color: #f44336;
+}
+
+#restartBtn:hover {
+    background-color: #da190b;
+}
+
+.output {
+    font-size: 1.2em;
+    color: #555;
+    margin-top: 20px;
+    white-space: pre-line;
+}

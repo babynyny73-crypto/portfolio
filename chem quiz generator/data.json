@@ -1,0 +1,178 @@
+{
+  "questions": [
+    {
+      "question": "What is matter?",
+      "options": ["Anything that has mass and takes up space", "Anything visible", "Anything that moves", "Anything that conducts electricity"],
+      "answer": 0,
+      "category": "Matter"
+    },
+    {
+      "question": "What is an element?",
+      "options": ["A mixture", "A pure substance of one atom type", "A compound", "A molecule"],
+      "answer": 1,
+      "category": "Atoms"
+    },
+    {
+      "question": "What is a compound?",
+      "options": ["A physical mixture", "A single atom", "Two or more elements chemically bonded", "A gas"],
+      "answer": 2,
+      "category": "Atoms"
+    },
+    {
+      "question": "Which particle has a positive charge?",
+      "options": ["Electron", "Neutron", "Proton", "Photon"],
+      "answer": 2,
+      "category": "Atomic Structure"
+    },
+    {
+      "question": "Which particle has no charge?",
+      "options": ["Electron", "Proton", "Neutron", "Ion"],
+      "answer": 2,
+      "category": "Atomic Structure"
+    },
+    {
+      "question": "What does the atomic number represent?",
+      "options": ["Number of neutrons", "Number of electrons", "Number of protons", "Mass number"],
+      "answer": 2,
+      "category": "Atomic Structure"
+    },
+    {
+      "question": "Which group contains noble gases?",
+      "options": ["Group 1", "Group 18", "Group 7", "Group 3"],
+      "answer": 1,
+      "category": "Periodic Table"
+    },
+    {
+      "question": "What type of bond involves the transfer of electrons?",
+      "options": ["Ionic bond", "Metallic bond", "Covalent bond", "Hydrogen bond"],
+      "answer": 0,
+      "category": "Chemical Bonds"
+    },
+    {
+      "question": "What are the starting materials in a chemical reaction called?",
+      "options": ["Reactants", "Catalysts", "Solvents", "Products"],
+      "answer": 0,
+      "category": "Chemical Reactions"
+    },
+    {
+      "question": "What is the pH range of acids?",
+      "options": ["0 to 7", "Exactly 7", "7 to 14", "Above 14"],
+      "answer": 0,
+      "category": "Acids and Bases"
+    },
+    {
+      "question": "What is a mixture?",
+      "options": ["A physical combination of substances", "A pure substance", "A compound", "A solution"],
+      "answer": 0,
+      "category": "Matter"
+    },
+    {
+      "question": "Which particle orbits the nucleus?",
+      "options": ["Proton", "Neutron", "Electron", "Quark"],
+      "answer": 2,
+      "category": "Atomic Structure"
+    },
+    {
+      "question": "What is the mass number?",
+      "options": ["Protons + Neutrons", "Electrons + Protons", "Neutrons only", "Atomic number"],
+      "answer": 0,
+      "category": "Atomic Structure"
+    },
+    {
+      "question": "What are columns in the periodic table called?",
+      "options": ["Periods", "Groups", "Chains", "Blocks"],
+      "answer": 1,
+      "category": "Periodic Table"
+    },
+    {
+      "question": "What are rows in the periodic table called?",
+      "options": ["Groups", "Periods", "Families", "Series"],
+      "answer": 1,
+      "category": "Periodic Table"
+    },
+    {
+      "question": "Where are metals located?",
+      "options": ["Left side", "Right side", "Top row", "Bottom row"],
+      "answer": 0,
+      "category": "Periodic Table"
+    },
+    {
+      "question": "Where are nonmetals located?",
+      "options": ["Left side", "Middle", "Right side", "Bottom row"],
+      "answer": 2,
+      "category": "Periodic Table"
+    },
+    {
+      "question": "Why do atoms bond?",
+      "options": ["To become unstable", "To increase mass", "To become more stable", "To lose electrons"],
+      "answer": 2,
+      "category": "Chemical Bonds"
+    },
+    {
+      "question": "What type of elements form covalent bonds?",
+      "options": ["Metal + Metal", "Nonmetal + Nonmetal", "Metal + Nonmetal", "Gas + Liquid"],
+      "answer": 1,
+      "category": "Chemical Bonds"
+    },
+    {
+      "question": "What is a chemical reaction?",
+      "options": ["A physical change", "A change into new substances", "An evaporation", "A mixture"],
+      "answer": 1,
+      "category": "Chemical Reactions"
+    },
+    {
+      "question": "What are products in a chemical reaction?",
+      "options": ["Catalysts", "Starting materials", "Unchanged substances", "New substances formed"],
+      "answer": 3,
+      "category": "Chemical Reactions"
+    },
+    {
+      "question": "What does the Law of Conservation of Mass state?",
+      "options": ["Mass is created", "Mass is constant", "Mass is not created or destroyed", "Mass is destroyed"],
+      "answer": 2,
+      "category": "Chemical Reactions"
+    },
+    {
+      "question": "What ion do acids produce?",
+      "options": ["OH⁻", "H⁺", "Na⁺", "Cl⁻"],
+      "answer": 1,
+      "category": "Acids and Bases"
+    },
+    {
+      "question": "What ion do bases produce?",
+      "options": ["OH⁻", "H⁺", "NO₃⁻", "CO₃²⁻"],
+      "answer": 0,
+      "category": "Acids and Bases"
+    },
+    {
+      "question": "What is the pH of a neutral substance?",
+      "options": ["7", "14", "0", "5"],
+      "answer": 0,
+      "category": "Acids and Bases"
+    },
+    {
+      "question": "Which of the following is a pure element?",
+      "options": ["Salt", "Oxygen", "Water", "Air"],
+      "answer": 1,
+      "category": "Atoms"
+    },
+    {
+      "question": "Which of the following is a chemical change?",
+      "options": ["Melting ice", "Boiling water", "Burning wood", "Freezing juice"],
+      "answer": 2,
+      "category": "Chemical Reactions"
+    },
+    {
+      "question": "Which of the following is a physical change?",
+      "options": ["Rusting iron", "Burning paper", "Melting ice", "Cooking eggs"],
+      "answer": 2,
+      "category": "Chemical Reactions"
+    },
+    {
+      "question": "What is the charge of an electron?",
+      "options": ["Positive", "Negative", "Neutral", "Variable"],
+      "answer": 1,
+      "category": "Atomic Structure"
+    }
+  ]
+}

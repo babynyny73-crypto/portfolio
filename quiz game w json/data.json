@@ -1,0 +1,54 @@
+{
+  "questions": [
+    {
+      "question": "Who is the artist behind the hit single 'Midnight Pulse'?",
+      "answer": "Jaxon Reid",
+      "choices": ["Jaxon Reid", "Ella Monroe", "Camila Vega", "Drake"]
+    },
+    {
+      "question": "Which pop sensation released the album 'Unwritten Echoes' in 2025?",
+      "answer": "Ella Monroe",
+      "choices": ["Ella Monroe", "Indigo Rayne", "Bruno Mars", "Addison Rae"]
+    },
+    {
+      "question": "Which Latin artist is known for blending reggaeton and R&B in 2025?",
+      "answer": "Camila Vega",
+      "choices": ["Camila Vega", "Zylo", "The Weeknd", "Jaxon Reid"]
+    },
+    {
+      "question": "What is the name of Billie Eilish’s 2025 album that explores orchestral pop?",
+      "answer": "Shadows & Silhouettes",
+      "choices": ["Shadows & Silhouettes", "Unwritten Echoes", "Solstice", "Legacy & Loyalty"]
+    },
+    {
+      "question": "Which rap icon dropped the surprise album 'Legacy & Loyalty' in 2025?",
+      "answer": "Drake",
+      "choices": ["Drake", "Bruno Mars", "Ella Monroe", "The Weeknd"]
+    },
+    {
+      "question": "Who is the indie-rock artist behind the album 'Solstice'?",
+      "answer": "Indigo Rayne",
+      "choices": ["Indigo Rayne", "Camila Vega", "Addison Rae", "Zylo"]
+    },
+    {
+      "question": "Which DJ performed a standout set at Tomorrowland 2025?",
+      "answer": "Zylo",
+      "choices": ["Zylo", "Drake", "Bruno Mars", "Jaxon Reid"]
+    },
+    {
+      "question": "Which artist leads Spotify with over 150 million monthly listeners in 2025?",
+      "answer": "Bruno Mars",
+      "choices": ["Bruno Mars", "Ella Monroe", "The Weeknd", "Addison Rae"]
+    },
+    {
+      "question": "Which artist is known for a futuristic mix of synth-wave and deep house in 2025?",
+      "answer": "The Weeknd",
+      "choices": ["The Weeknd", "Zylo", "Camila Vega", "Indigo Rayne"]
+    },
+    {
+      "question": "Which rising pop star collaborated with Charli XCX and Arca?",
+      "answer": "Addison Rae",
+      "choices": ["Addison Rae", "Ella Monroe", "Camila Vega", "Bruno Mars"]
+    }
+  ]
+}

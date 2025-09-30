@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Chem Quiz Game</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🔬 Chem Quiz Game</h1>
+
+    <div id="setup">
+      <label for="numQuestions">Choose number of questions from the menu:</label>
+      <select id="numQuestions">
+  <option value="5">5 Questions</option>
+  <option value="10">10 Questions</option>
+  <option value="15">15 Questions</option>
+  <option value="20">20 Questions</option>
+  <option value="25">25 Questions</option>
+  <option value="30">30 Questions</option>
+</select>
+      <button class="btn" onclick="startGame()">Start Quiz</button>
+    </div>
+
+    <div id="quiz" class="hidden">
+      <h2 id="question"></h2>
+      <ul id="options"></ul>
+      <button class="btn" onclick="nextQuestion()">Next</button>
+    </div>
+
+    <div id="result" class="hidden">
+      <h2>Your Score: <span id="score"></span></h2>
+      <input type="text" id="playerName" placeholder="Enter your name" />
+      <button class="btn" onclick="saveScore()">Save Score</button>
+      <button class="btn" onclick="showLeaderboard()">Show Leaderboard</button>
+    </div>
+
+    <div id="leaderboard" class="hidden">
+      <h2>🏆 Leaderboard</h2>
+      <ul id="leaderboardList"></ul>
+      <button class="btn" onclick="resetGame()">Reset Game</button>
+    </div>
+  </div>
+ 
+
+  <script src="script.js"></script>
+</body>
+</html>
